@@ -170,10 +170,6 @@
     gap: 10px;
 }
 
-.form__button {
-    width: 100%;
-}
-
 .form__policy {
     max-width: 340px;
     font-family: var(--font-Roboto);
@@ -249,12 +245,13 @@ h2 {
 
 body {
     min-width: 320px;
-    height: 100%;
+    height: 100vh;
     box-sizing: border-box;
     overflow-x: hidden;
     background-color: var(--background-color);
     font-family: var(--font-Jost);
     color: var(--color-black);
+
 }
 
 body.scroll-lock  {
@@ -326,7 +323,7 @@ header.lock-modal {
 .nav__link {
     font-family: var(--font-Roboto);
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 150%;
     transition: all .15s ease-in-out;
 
@@ -688,22 +685,17 @@ header.lock-modal {
 }
 
 .advantages__gallery-item {
+    z-index: 3;
+    position: relative;
     display: block;
     border-radius: 20px;
     overflow: hidden;
+
 
     &:first-child {
         aspect-ratio: 2/1.062;
         grid-column: span 3;
     }
-}
-
-.advantages__gallery-img {
-    z-index: 1;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 
     &:before {
         content: '';
@@ -720,13 +712,24 @@ header.lock-modal {
         background-image: url("../img/Zoom in.svg");
         background-position: center;
         background-repeat: no-repeat;
-        transition: all .15s linear;
+         transition: all .15s linear;
     }
 }
 
-.advantages__gallery-img:hover .advantages__gallery-img:before{
+
+
+.advantages__gallery-item:hover:before{
     opacity: 1;
 }
+
+.advantages__gallery-img {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
 /* advantages end*/
 
 /* advice start*/
@@ -736,14 +739,16 @@ header.lock-modal {
 }
 
 .advice__block-tubs {
+    z-index: 2;
+    position: relative;
     display: flex;
-    justify-content: space-between;
-    max-width: 599px;
-    width: 100%;
+    align-items: center;
+    overflow: auto;
 }
 
 .advice__block-btn {
     padding: 8px 30px;
+    flex-shrink: 0;
     font-size: 24px;
     font-weight: 500;
     line-height: 120%;
@@ -808,6 +813,8 @@ header.lock-modal {
 }
 
 .advice__block-list {
+    z-index: 2;
+    position: relative;
     display: flex;
     align-items: center;
     gap: 16px;
@@ -815,6 +822,7 @@ header.lock-modal {
 }
 
 .advice__block-list__item {
+    flex-shrink: 0;
     padding: 11px 16px;
     border-radius: 40px;
     background-color: var(--background-color);
@@ -834,8 +842,6 @@ header.lock-modal {
 /*recipes start*/
 
 .swiper {
-    position: relative;
-    width: 100%;
     overflow: visible;
 }
 
@@ -1069,41 +1075,44 @@ header.lock-modal {
 }
 
 .process-slider-img-wrapper {
+    z-index: 2;
+    position: relative;
     display: block;
     aspect-ratio: 1/0.87;
     border-radius: 20px;
     overflow: hidden;
+
+    &:before {
+        content: '';
+        z-index: 2;
+        position: absolute;
+        opacity: 0;
+        top: 50%;
+        left: 50%;
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        background-color: var(--background-opacity-grey);
+        background-image: url("../img/Zoom in.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: all .15s linear;
+     }
+}
+
+.process-slider-img-wrapper:hover:before{
+    opacity: 1;
 }
 
 .process__slider-img {
-    z-index: 1;
+
     position: relative;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.process__slider-img:hover.process__slider-img:before{
-    opacity: 1;
-}
-
-.process__slider-img:before {
-    content: '';
-    z-index: 2;
-    position: absolute;
-    opacity: 0;
-    top: 50%;
-    left: 50%;
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    background-color: var(--background-opacity-grey);
-    background-image: url("../img/Zoom in.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: all .15s linear;
-}
 /* process end */
 
 /*stages start*/
@@ -1280,6 +1289,12 @@ header.lock-modal {
     align-items: center;
     gap: 15px;
     margin-bottom: 30px;
+}
+
+.footer__top-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
 .footer__buttons-wrapper {
@@ -1541,6 +1556,10 @@ header.lock-modal {
         flex-direction: column;
     }
 
+    .form__button {
+        width: 100%;
+    }
+
     .button--form {
         width: 100%;
         margin-top: 20px;
@@ -1657,6 +1676,20 @@ header.lock-modal {
             grid-column: 1;
         }
 
+    }
+
+    .advice__block-content {
+        border-radius: 0;
+        padding: 10px;
+    }
+
+    .advice__block-tubs {
+        max-width: calc(100% + 20px);
+    }
+
+    .advice__block-btn {
+        flex-shrink: 0;
+        padding: 12px 30px;
     }
 
     .stages__list-item {
