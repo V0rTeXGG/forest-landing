@@ -1,0 +1,16 @@
+:root {
+    --font-Jost: 'Jost', sans-serif;
+    --font-Roboto: 'Roboto', sans-serif;
+    --color-white: #fff;
+    --color-ligth-grey: #D3DCE4;
+    --color-black: #050C10;
+    --color-dark-grey: #474C54;
+    --background-modal-window: rgba(5, 12, 16, .5);
+    --background-opacity-grey: rgba(71, 76, 84, 0.70);
+    --color-ligth-green: #BDE75B;
+    --color-ligth-green-hover: #BCDA77;
+    --color-orange: #FF3E2E;
+    --color-orange-hover: #FF3E2E;
+    --background-color: #F0F5FA;
+
+}

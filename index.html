@@ -1,0 +1,910 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Roboto&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="style/style.css">
+
+    <title>Лес-Сад</title>
+</head>
+<body>
+<header class="header">
+    <div class="header-wrapper">
+        <div class="header__left">
+            <a class="header__logo" href="">
+                <img src="img/logo.png" alt="" class="header__logo-image">
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">О компании</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#products" class="nav__link">Наша продукция</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#stages" class="nav__link">Как мы работаем</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacts" class="nav__link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__info">
+            <a href="tel:+74964162927" class="header__info-telephone">+7 496 416 29 27</a>
+            <ul class="header__info-social social-header">
+                <li class="header__info-item">
+                    <a href="https://telegram.com" class="header__info-link" target="_blank">
+                        <img src="img/telegram.svg" alt="логотип Telegram" class="header__info-social">
+                    </a>
+                </li>
+                <li class="header__info-item">
+                    <a href="https://whatsapp.com" class="header__info-link" target="_blank">
+                        <img src="img/whats-app.svg" alt="логотип whatsApp">
+                    </a>
+                </li>
+            </ul>
+            <button type="button" class="button__header button--order button button--green">Заказать</button>
+            <button class="header__btn--menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="header-mobile-nav">
+            <div class="header-mobile-nav__wrapper">
+                <nav class="nav nav--mobile">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">О компании</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#products" class="nav__link">Наша продукция</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#stages" class="nav__link">Как мы работаем</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contacts" class="nav__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="header__info-social">
+                    <li class="header__info-item">
+                        <a href="https://telegram.com" class="header__info-link" target="_blank">
+                            <img src="img/telegram.svg" alt="логотип Telegram" class="header__info-social">
+                        </a>
+                    </li>
+                    <li class="header__info-item">
+                        <a href="https://whatsapp.com" class="header__info-link" target="_blank">
+                            <img src="img/whats-app.svg" alt="логотип whatsApp">
+                        </a>
+                    </li>
+                </ul>
+                <button type="button" class="button--order button button--green">Заказать</button>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <section class="inner">
+        <div class="inner-wrapper wrapper">
+            <div class="inner__top">
+                <div class="inner__top-left">
+                    <h1 class="inner__title">Позволь себе наслаждаться свежими грибами</h1>
+                    <button class="button--order button button--height-medium button--green ">Заказать</button>
+                </div>
+                <div class="inner__image-wrapper">
+                    <img src="img/inner/mushrooms.png" alt="грибы" class="inner__image">
+                </div>
+            </div>
+            <ul class="section__list inner__list">
+                <li class="section__list-item">
+                    <div class="section__list-img-wrapper">
+                        <div class="section__list-img" style="background-image: url('img/inner/Shield.png')"></div>
+                    </div>
+                    <p class="section__list-title">Всегда свежий продукт</p>
+                </li>
+                <li class="section__list-item">
+                    <div class="section__list-img-wrapper">
+                        <div class="section__list-img" style="background-image: url('img/inner/truck-tick.png')"></div>
+                    </div>
+                    <p class="section__list-title">Оперативная доставка</p>
+                </li>
+                <li class="section__list-item">
+                    <div class="section__list-img-wrapper">
+                        <div class="section__list-img" style="background-image: url('img/inner/setting-2.png')"></div>
+                    </div>
+                    <p class="section__list-title">Налаженное производство</p>
+                </li>
+                <li class="section__list-item">
+                    <div class="section__list-img-wrapper">
+                        <div class="section__list-img" style="background-image: url('img/inner/Star.png')"></div>
+                    </div>
+                    <p class="section__list-title">Индивидуальные услович</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="products" class="products">
+        <div class="products-wrapper wrapper">
+            <div class="products__top">
+                <div class="products__top-logo-wrapper">
+                    <img src="img/products/big-logo.png" alt="" class="products__top-logo">
+                </div>
+                <div class="products__top-left">
+                    <h2 class="products__top-title">Наша продукция</h2>
+                    <p class="products__top-text">Вешенки — это наше призвание. Мы не только знаем все о выращивании
+                        этих грибов, но и сами отвечаем за все компоненты, которые необходимы для их производства. Вы
+                        можете приобрести у нас как сами вешенки, так и компоненты, необходимые для их выращивания.</p>
+                </div>
+            </div>
+            <div class="products__list">
+                <div class="products__list-item">
+                    <div class="products__list-info">
+                        <p class="products__list-title">Грибы Вешенки</p>
+                        <p class="products__list-text">Свежайшие грибы, которые растут под тщательным наблюдением
+                            технологов грибного производства. Особая климатическая камера и полностью автоматизированный
+                            процесс производства позволяют тщательно спланировать урожай и доставить вам нужное
+                            количество только что срезанных вешенок.</p>
+                    </div>
+                    <div class="products__list-images">
+                        <div class="products__list-image-wrapper">
+                            <img src="img/products/vesenki-1.png" alt="вешенки" class="products__list-image">
+                        </div>
+                        <div class="products__list-image-wrapper">
+                            <img src="img/products/vesenki-2.png" alt="вешенки" class="products__list-image">
+                        </div>
+                    </div>
+                </div>
+                <div class="products__list-item">
+                    <div class="products__list-info">
+                        <p class="products__list-title">Мицелий</p>
+                        <p class="products__list-text">Сами выращиваете грибы? Предложим вам грибные тела, которые
+                            приносят стабильный объем урожая. Останется только перемешать их с субстратом, поместить в
+                            подходящие для роста условия и ждать первого урожая.</p>
+                    </div>
+                    <div class="products__list-images">
+                        <div class="products__list-image-wrapper">
+                            <img src="img/products/mizele-1.png" alt="мицелий" class="products__list-image">
+                        </div>
+                        <div class="products__list-image-wrapper">
+                            <img src="img/products/mizele-2.png" alt="мицелий" class="products__list-image">
+                        </div>
+                    </div>
+                </div>
+                <div class="products__list-item">
+                    <div class="products__list-info">
+                        <p class="products__list-title">Субстрат и грибные блоки</p>
+                        <p class="products__list-text">У нас можно приобрести как субстрат для выращивания грибов, так и
+                            уже готовые грибные блоки, от которых можно сразу ждать урожая. Проконсультируем по всем
+                            интересующим вопросам, подскажем, как лучше всего обустроить подходящие условия.</p>
+                    </div>
+                    <div class="products__list-images">
+                        <div class="products__list-image-wrapper">
+                            <img src="img/products/substrat-1.png" alt="субстрат" class="products__list-image">
+                        </div>
+                        <div class="products__list-image-wrapper">
+                            <img src="img/products/substrat-2.png" alt="субстрат" class="products__list-image">
+                        </div>
+                    </div>
+                </div>
+                <div class="products__list-item">
+                    <div class="products__list-info">
+                        <p class="products__list-title">Мульча</p>
+                        <p class="products__list-text">Нужен материал для мульчирования почвы огорода? Отработанный
+                            грибной субстрат прекрасно подходит для этой роли. А через год он превратится в перегной и
+                            станет идеальным удобрением для вашей фазенды.</p>
+                    </div>
+                    <div class="products__list-images">
+                        <div class="products__list-image-wrapper">
+                            <img src="img/products/mulcha-1.png" alt="мульча" class="products__list-image">
+                        </div>
+                        <div class="products__list-image-wrapper">
+                            <img src="img/products/mulcha-2.png" alt="мульча" class="products__list-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="advantages">
+        <div class="wrapper">
+            <h2 class="advantages__title">Преимущества</h2>
+            <ul class="section__list advantages__list">
+                <li class="section__list-item">
+                    <div class="section__list-img-wrapper">
+                        <div class="section__list-img" style="background-image: url('img/advantages/tree.png')"></div>
+                    </div>
+                    <p class="section__list-title">Кладезь витаминов в каждом грибочке</p>
+                    <p class="section__list-text">Правильно подобранные мицелии, условия роста, приближенные к
+                        естественным, исключительно натуральный субстрат — вот, что делает наши вешенки максимально
+                        полезным и здоровым продуктом.</p>
+                </li>
+                <li class="section__list-item">
+                    <div class="section__list-img-wrapper">
+                        <div class="section__list-img"
+                             style="background-image: url('img/advantages/element-3.png')"></div>
+                    </div>
+                    <p class="section__list-title">Фасовка на любой вкус</p>
+                    <p class="section__list-text">Хотите заказать одну упаковку в 300 грамм или необходима доставка
+                        большого размера для вашего розничного или сетевого магазина? Ни то, ни другое не будет
+                        проблемой. Любые объемы грибов на продажу. Ограничение одно — сам рост грибов, поэтому наш
+                        технолог за неделю может предупредить о том, на какое количество вы можете рассчитывать.</p>
+                </li>
+                <li class="section__list-item">
+                    <div class="section__list-img-wrapper">
+                        <div class="section__list-img"
+                             style="background-image: url('img/advantages/mushroom.png')"></div>
+                    </div>
+                    <p class="section__list-title">Всегда свежие грибы</p>
+                    <p class="section__list-text">Мы продаем вешенки сразу после среза. Упаковываем и ставим дату,
+                        когда грибы были сняты. Поставка только свежих грибов без промедления.</p>
+                </li>
+            </ul>
+            <div class="advantages__gallery">
+                <a href="img/advantages/gallery-1.png" data-fancybox="advantages"
+                   class="advantages__gallery-item">
+                    <img src="img/advantages/gallery-1.png" alt="грибы" class="advantages__gallery-img">
+                </a>
+                <a href="img/advantages/gallery-2.jpg" data-fancybox="advantages"
+                   class="advantages__gallery-item">
+                    <img src="img/advantages/gallery-2.jpg" alt="грибы" class="advantages__gallery-img">
+                </a>
+                <a href="img/advantages/gallery-3.png" data-fancybox="advantages"
+                   class="advantages__gallery-item">
+                    <img src="img/advantages/gallery-3.png" alt="грибы" class="advantages__gallery-img">
+                </a>
+                <a href="img/advantages/gallery-4.jpg" data-fancybox="advantages"
+                   class="advantages__gallery-item">
+                    <img src="img/advantages/gallery-4.jpg" alt="грибы" class="advantages__gallery-img">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="advice">
+        <div class="wrapper">
+            <h2 class="advise__title">Кому подойдет</h2>
+            <div class="advice__block">
+                <div class="advice__block-tubs">
+                    <button class="advice__block-btn active" data-tab="#tab_1">Магазинам</button>
+                    <button class="advice__block-btn" data-tab="#tab_2">HORECA</button>
+                    <button class="advice__block-btn" data-tab="#tab_3">Частным клиентам</button>
+                </div>
+                <div class="advice__block-content active" id="tab_1">
+                    <div class="advice__block-top">
+                        <div class="advice__block-info">
+                            <p class="advice__block-title">Ваши покупатели будут получать всегда самые свежие грибы,
+                                а вы — необходимые объемы.</p>
+                            <p class="advice__block-text">Мы не просто соберем урожай: сделаем необходимую фасовку,
+                                проставим на ней все сертификаты качества по ГОСТу и сами доставим. Также мы поможем вам
+                                реализовать любой необходимый объем грибов. Сообщите желаемые цифры, и наши технологи
+                                помогут вам реализовать необходимое количество.</p>
+                        </div>
+                        <div class="advice__block-img-wrapper">
+                            <img src="img/advice/advice-1.png" alt="грибы" class="advice__block-img">
+                        </div>
+                        <!--                        <div class="advice__block-img" style="background-image: url('img/advice/advice-1.png')"></div>-->
+                    </div>
+                    <ul class="advice__block-list">
+                        <li class="advice__block-list__item">
+                            <p class="advice__block-list__text">Упаковка сразу после среза</p>
+                        </li>
+                        <li class="advice__block-list__item">
+                            <p class="advice__block-list__text">Любой объем вешенок</p>
+                        </li>
+                        <li class="advice__block-list__item">
+                            <p class="advice__block-list__text">Сертификаты качества</p>
+                        </li>
+                        <li class="advice__block-list__item">
+                            <p class="advice__block-list__text">Доставка по России</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="advice__block-content" id="tab_2">
+                    <div class="advice__block-top">
+                        <div class="advice__block-info">
+                            <p class="advice__block-title">Индустрия гостеприимства не терпит ожидания.</p>
+                            <p class="advice__block-text">Именно поэтому для ресторанов, кафе и кейтеринга мы
+                                предлагаем не только обычные поставки целых грибов после среза, но и только грибных
+                                шляпок. Все это необходимо для того, чтобы оптимизировать трудозатраты поваров, которые
+                                достаточное количество времени тратят на чистку и отделение от ножки.</p>
+                        </div>
+                        <div class="advice__block-img-wrapper">
+                            <img src="img/advice/advice-2.png" alt="грибы" class="advice__block-img">
+                        </div>
+                    </div>
+                    <ul class="advice__block-list">
+                        <li class="advice__block-list__item">
+                            <p class="advice__block-list__text">Без сложностей чистки</p>
+                        </li>
+                        <li class="advice__block-list__item">
+                            <p class="advice__block-list__text">Необходимое количество</p>
+                        </li>
+                        <li class="advice__block-list__item">
+                            <p class="advice__block-list__text">Только свежесрезанные грибы</p>
+                        </li>
+                        <li class="advice__block-list__item">
+                            <p class="advice__block-list__text">Выстроенная логистика</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="advice__block-content" id="tab_3">
+                    <div class="advice__block-top">
+                        <div class="advice__block-info">
+                            <p class="advice__block-title">Мы доставим только срезанные и упакованные грибы сразу к
+                                вам домой. Свежие вешенки хороши в блюдах, а также незабываемы на вкус. Ведь это
+                                уникальный продукт!</p>
+                            <p class="advice__block-text">Вешенки содержат большое количество белка, который легко
+                                усваивается организмом, и богаты антиоксидантами, витаминами и минералами. А еще у них в
+                                составе есть хитиновая сетка, которая снижает холестерин. Но, что самое потрясающее, —
+                                они великолепны на вкус. Кстати, наш технолог советует перед употреблением их в пищу
+                                замораживать, говорит, что так намного вкуснее 🙂</p>
+                        </div>
+                        <div class="advice__block-img-wrapper">
+                            <img src="img/advice/advice-3.png" alt="грибы" class="advice__block-img">
+                        </div>
+                    </div>
+                    <ul class="advice__block-list">
+                        <li class="advice__block-list__item">
+                            <p class="advice__block-list__text">Без посредников</p>
+                        </li>
+                        <li class="advice__block-list__item">
+                            <p class="advice__block-list__text">Натуральный продукт</p>
+                        </li>
+                        <li class="advice__block-list__item">
+                            <p class="advice__block-list__text">От 1 упаковки</p>
+                        </li>
+                        <li class="advice__block-list__item">
+                            <p class="advice__block-list__text">Доставка до дома</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="recipes">
+        <div class="wrapper">
+            <h2 class="recipes__title">Любимые рецепты наших сотрудников</h2>
+            <div class="swiper slider-recipes">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide recipes__slider">
+                        <div class="recipes__slider-img-wrapper">
+                            <img src="img/recipes/recipes-1.png" alt="рецепт грибов" class="recipes__slider-img">
+                        </div>
+                        <!--                        <div class="recipes__slider-img"-->
+                        <!--                             style="background-image: url('img/recipes/recipes-1.png')"></div>-->
+                        <div class="recipes__slider-text">
+                            <p class="recipes__slider-title">Вешенки с луком на сковороде</p>
+                            <p>Подготавливаем сковороду: наливаем растительное масло и разогреваем. Нарезаем вешенки на
+                                крупные кусочки. Кладем их в разогретое масло и обжариваем на среднем огне где-то в
+                                течение 10–12 минут. Как только из грибов выпарится влага, добавляем репчатый лук,
+                                нарезанный крупными кольцами или полукольцами, и столовую ложку топленого масла.
+                                Обжариваем еще 7 минут, выкладываем на тарелку и украшаем свежим рубленным укропом.
+                                Прекрасная намазка для бутербродов и основа для жюльена готова.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide recipes__slider">
+                        <div class="recipes__slider-img-wrapper">
+                            <img src="img/recipes/recipes-2.png" alt="рецепт грибов" class="recipes__slider-img">
+                        </div>
+                        <div class="recipes__slider-text">
+                            <p class="recipes__slider-title">Жюльен из вешенок</p>
+                            <p>В качестве основы берем предыдущий рецепт. Разогреваем готовое блюдо на сковороде и
+                                добавляем 250 грамм сметаны, помешиваем и томим пару минут. Добавляем две ложки муки,
+                                чтобы смесь загустела. Раскладываем ее в кокотницы, посыпает тертым сыром, лучше
+                                твердым, и в разогретую до 200 градусов духовку на 5 минут. Жюльен готов.</p>
+                            <p>P.S. К этому блюду можно добавить курицу или креветки, станет в разы вкуснее.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide recipes__slider">
+                        <div class="recipes__slider-img-wrapper">
+                            <img src="img/recipes/recipes-3.png" alt="рецепт грибов" class="recipes__slider-img">
+                        </div>
+                        <div class="recipes__slider-text">
+                            <p class="recipes__slider-title">Салат с вешенками</p>
+                            <p>Обжариваем вешенки с репчатым луком. Далее к ним добавляем натертые на крупной терке яйца
+                                вкрутую, свежие огурцы, нарезанные кубиками. Останется только положить пару ложек
+                                сметаны, немного соли и рубленой зелени. Вкуснейший салат готов!</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide recipes__slider">
+                        <div class="recipes__slider-img-wrapper">
+                            <img src="img/recipes/recipes-4.png" alt="рецепт грибов" class="recipes__slider-img">
+                        </div>
+                        <div class="recipes__slider-text">
+                            <p class="recipes__slider-title">Классические вешенки в соевом соусе</p>
+                            <p>В сковороде разогреваем подсолнечное масло, добавляем в него дольки чеснока, доводим до
+                                золотистого цвета и вынимаем. Вешенки промываем и нарезаем на достаточно крупные равные
+                                части. Кладем кусочки в сковороду и жарим в течение 3–5 минут, время от времени
+                                помешивая. После этого добавляем туда же раздавленный зубчик чеснока и вливаем соевый
+                                соус. Готовим до тех пор, пока жидкость совсем не выпарится. Получаем замечательное
+                                блюдо, которое можно использовать в качестве намазки на брускетты или добавки к любому
+                                из гарниров.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev recipes__slider-button-prev">
+                </div>
+                <div class="swiper-button-next recipes__slider-button-next">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="order">
+        <div class="order-wrapper wrapper">
+            <div class="order__container">
+                <div class="order__content">
+                    <h2 class="order__title">Готовы заказать?</h2>
+                    <div class="order__text">
+                        <p>Заполните форму, и наши сотрудники свяжутся с вами в течение 15 минут.</p>
+                    </div>
+                </div>
+                <div class="order-form-wrapper">
+                    <form class="form" data-form-order="1">
+                        <div class="form__fields">
+                            <div class="form__input-wrapper">
+                                <input name="name" type="text" class="form__input" data-form-name>
+                                <label class="form__input-placeholder">Ваше имя<span>*</span></label>
+                            </div>
+                            <div class="form__input-wrapper">
+                                <input type="tel" class="form__input" data-form-number
+                                       data-inputmask="+7 (999) 999-99-99">
+                                <label class="form__input-placeholder">Телефон<span>*</span></label>
+                            </div>
+                            <div class="form__input-wrapper">
+                                <input type="email" class="form__input" data-form-email>
+                                <label class="form__input-placeholder">Электронная почта<span>*</span></label>
+                            </div>
+                            <div class="form__input-wrapper">
+                                <input type="text" class="form__input" data-form-organization>
+                                <label class="form__input-placeholder">Ваша организация</label>
+                            </div>
+                        </div>
+                        <div class="form__bottom">
+                            <div class="form__button">
+                                <button type="submit" class="button--form button button--big button--white" data-form-order="1">
+                                    Отправить
+                                </button>
+                            </div>
+                            <p class="form__policy">Нажимая на кнопку «Отправить», вы подтверждаете свое согласие на
+                                <span class="form__policy-link btn--policy">обработку пользовательских данных</span></p>
+                        </div>
+                    </form>
+                    <div class="form__successful" data-form-order="1">
+                        <img src="img/check-white.png" alt="иконка галочки" class="form__successful-img">
+                        <p class="form__successful-title">Ваша заявка направлена!</p>
+                        <p class="form__successful-text">В ближайшее время наш менеджер с вами свяжется и сориентирует
+                            по дальнейшим действиям.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="about-wrapper wrapper">
+            <div class="about__img-wrapper">
+                <div class="about__img" style="background-image: url('img/about/about-img.png')"></div>
+            </div>
+            <div class="about__content">
+                <h2 class="about__title">О компании «Лес-Сад»</h2>
+                <p>Мы не просто производители вешенок, мы — настоящие фанаты этих грибов. Наш генеральный директор
+                    просто обожает блюда из этих продуктов, а все специалисты имеют необходимую квалификацию и прошли
+                    обучение технологии грибного производства.</p>
+                <p>Сегодня мы не просто выращиваем грибы на продажу, наши технологи трудятся над тем, чтобы повысить
+                    производительность используемых штаммов и добиться стабильности в росте грибов. Само же производство
+                    стало базой для обучения технологов грибных производств и исследований Ярославской государственной
+                    сельскохозяйственной академии.</p>
+                <p>С научным любопытством смотрим в наше будущее. Ведь спрос превышает предложение, и нам точно есть,
+                    куда еще расти.</p>
+            </div>
+            <ul class="section__list about__list">
+                <li class="section__list-item">
+                    <div class="section__list-img-wrapper">
+                        <div class="section__list-img" style="background-image: url('img/about/sun.svg')"></div>
+                    </div>
+                    <p class="section__list-title">Естественный процесс выращивания</p>
+                    <p class="section__list-text">Без лишних примесей: только мицелии и натуральный субстрат. Каждый
+                        гриб
+                        сразу после среза попадает в упаковку и без промедления к вам.</p>
+                </li>
+                <li class="section__list-item">
+                    <div class="section__list-img-wrapper">
+                        <div class="section__list-img" style="background-image: url('img/about/Star.svg')"></div>
+                    </div>
+                    <p class="section__list-title">Естественный процесс выращивания</p>
+                    <p class="section__list-text">Промышленное производство позволяет поставлять грибы как в малых, так
+                        и
+                        в больших количествах. Специальные предложения для сегмента HORECA.</p>
+                </li>
+                <li class="section__list-item">
+                    <div class="section__list-img-wrapper">
+                        <div class="section__list-img" style="background-image: url('img/about/medal-star.svg')"></div>
+                    </div>
+                    <p class="section__list-title">Качество, подтвержденное сертификатами</p>
+                    <p class="section__list-text">Свежесть и качество наших вешенок подтверждено всеми необходимыми по
+                        ГОСТу сертификатами.</p>
+                    <a href="img/certificate.png" class="section__list-btn" data-fancybox="certificate">Сертификат
+                        сооответствия</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="process">
+        <div class="wrapper">
+            <div class="section__top">
+                <h2 class="">Как растут наши вешенки</h2>
+                <p>Наши вешенки растут в особых климатических камерах, а за их ростом присматривают технологи грибного
+                    производства. Весь процесс автоматизирован, посмотрите, как это выглядит.</p>
+            </div>
+            <div class="swiper process-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide process__slider">
+                        <a href="img/process/process-1.png" data-fancybox="process" class="process-slider-img-wrapper">
+                            <img src="img/process/process-1.png" alt="грибы" class="process__slider-img">
+                        </a>
+                    </div>
+                    <div class="swiper-slide process__slider">
+                        <a href="img/process/process-2.png" class="process-slider-img-wrapper" data-fancybox="process">
+                            <img src="img/process/process-2.png" alt="грибы" class="process__slider-img">
+                        </a>
+                    </div>
+                    <div class="swiper-slide process__slider">
+                        <a href="img/process/process-3.png" class="process-slider-img-wrapper" data-fancybox="process">
+                            <img src="img/process/process-3.png" alt="грибы" class="process__slider-img">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-button-prev process__slider-button-prev"></div>
+                <div class="swiper-button-next process__slider-button-next"></div>
+            </div>
+        </div>
+    </section>
+    <section id="stages" class="stages">
+        <div class="wrapper">
+            <div class="section__top">
+                <h2 class="">Этапы производства</h2>
+                <p>Секрет большого количества свежих вешенок, которые обладают всеми сертификатами качества, только в
+                    одном — тщательно налаженное производство. По этапам рассказываем, как именно выстроен наш
+                    непрерывный процесс выращивания грибов.</p>
+            </div>
+            <div class="stages__list">
+                <div class="stages__list-item">
+                    <p class="stages__list-title">Отбор мицелий</p>
+                    <div class="stages__list-text">
+                        <p>Вешенки бывают разных сортов. Мы тщательно отбираем штаммы, чтобы получать стабильный и
+                            качественный урожай. Ну и, конечно, чтобы наши грибы были самыми вкусными.</p>
+                    </div>
+                </div>
+                <div class="stages__list-item">
+                    <p class="stages__list-title">Подготовка грибных блоков</p>
+                    <div class="stages__list-text">
+                        <p>На этом этапе идет подготовка субстрата. Его состав максимально натурален: сено и опилки
+                            лиственных деревьев. Субстрат тщательно перемешивается с мицелием. Все это собирается в
+                            грибные блоки и помещается в особые условия.</p>
+                    </div>
+                </div>
+                <div class="stages__list-item">
+                    <p class="stages__list-title">Особые условия</p>
+                    <div class="stages__list-text">
+                        <p>Готовые грибные блоки помещаются в камеры, где круглосуточно температура 14 градусов,
+                            постоянно есть поток воздуха 8 м/с и влажность 90 %. Здесь примерно через 4 недели
+                            появляются первые ростки грибов, которые под тщательным наблюдением наших технологов
+                            вырастают до нужного размера.</p>
+                    </div>
+                </div>
+                <div class="stages__list-item">
+                    <p class="stages__list-title">Сбор и упаковка</p>
+                    <div class="stages__list-text">
+                        <p>Срезанные грибы сразу же упаковывают в лотки с указанием даты и времени среза.</p>
+                    </div>
+                </div>
+                <div class="stages__list-item">
+                    <p class="stages__list-title">Доставка</p>
+                    <div class="stages__list-text">
+                        <p>Необходимое количество упакованных грибов помещается в машину, в которой соблюдаются все
+                            условия, чтобы грибы доехали до заказчика в самом свежем виде.</p>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="button--order stages__button button button--green button--big">Получить
+                консультацию
+            </button>
+        </div>
+    </section>
+    <section id="contacts" class="contacts">
+        <div class="wrapper">
+            <div class="section__top">
+                <h2>Как с нами связаться</h2>
+                <p>Нас легко найти на карте, если вы захотите выстраивать логистику самостоятельно. Связаться с нами
+                    можно по любому из указанных номеров, специалисты готовы вас проконсультировать по всем возникшим
+                    вопросам.</p>
+            </div>
+            <div id="map" class="contacts__map">
+                <div class="contacts__address">
+                    <p class="contacts__address-title">Адрес:</p>
+                    <p class="contacts__address-text">Садовая улица, 3А, посёлок Новый Снопок, Орехово-Зуевский
+                        городской округ,Московская область,</p>
+                </div>
+            </div>
+            <div class="contacts__address contacts--mobile">
+                <p class="contacts__address-title">Адрес:</p>
+                <p class="contacts__address-text">Садовая улица, 3А, посёлок Новый Снопок, Орехово-Зуевский
+                    городской округ,Московская область,</p>
+            </div>
+            <div class="contacts__bottom">
+                <div class="contacts__bottom-block">
+                    <p class="contacts__bottom-title">Телефоны:</p>
+                    <div class="contacts__links">
+                        <a href="tel:+74964162927"
+                           class="contacts__bottom-link">+7 496 416 29 27</a>
+                        <span class="contacts__phone-line">/</span>
+                        <a href="tel:+79857611546" class="contacts__bottom-link">+7 985 761 15 46</a>
+                    </div>
+                </div>
+                <div class="contacts__bottom-block">
+                    <p class="contacts__bottom-title">E-mail:</p>
+                    <a href="mailto:lessad@mail.ru" class="contacts__bottom-link email">lessad@mail.ru</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="order">
+        <div class="order-wrapper">
+            <div class="wrapper">
+                <h2 class="">Любые объемы свежайших вешенокдля розницы, ресторана и дома</h2>
+                <div class="order__container">
+                    <div class="order__content">
+                        <div class="order__text">
+                            <p>Если у вас остались вопросы, или вы хотите сделать заказ большого размера, то заполните
+                                форму. Наш специалист свяжется с вами в течение 24 часов.</p>
+                        </div>
+                    </div>
+                    <div class="order-form-wrapper">
+                        <form class="form" data-form-order="2">
+                            <div class="form__fields">
+                                <div class="form__input-wrapper">
+                                    <input name="name" type="text" class="form__input" data-form-name>
+                                    <label class="form__input-placeholder">Ваше имя<span>*</span></label>
+                                </div>
+                                <div class="form__input-wrapper">
+                                    <input type="tel" class="form__input" data-form-number
+                                           data-inputmask="+7 (999) 999-99-99">
+                                    <label class="form__input-placeholder">Телефон<span>*</span></label>
+                                </div>
+                                <div class="form__input-wrapper">
+                                    <input type="email" class="form__input" data-form-email>
+                                    <label class="form__input-placeholder">Электронная почта<span>*</span></label>
+                                </div>
+                                <div class="form__input-wrapper">
+                                    <input type="text" class="form__input" data-form-organization>
+                                    <label class="form__input-placeholder">Ваша организация</label>
+                                </div>
+                            </div>
+                            <div class="form__bottom">
+                                <div class="form__button">
+                                    <button type="submit" class="button--form button button--big button--white" data-form-order="2">
+                                        Отправить
+                                    </button>
+                                </div>
+                                <p class="form__policy">Нажимая на кнопку «Отправить», вы подтверждаете свое согласие на
+                                    <span class="form__policy-link btn--policy">обработку пользовательских данных</span>
+                                </p>
+                            </div>
+                        </form>
+                        <div class="form__successful" data-form-order="2">
+                            <img src="img/check-white.png" alt="иконка галочки" class="form__successful-img">
+                            <p class="form__successful-title">Ваша заявка направлена!</p>
+                            <p class="form__successful-text">В ближайшее время наш менеджер с вами свяжется и
+                                сориентирует по дальнейшим действиям.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="wrapper">
+        <div class="footer__top">
+            <a href="#" class="footer__logo">
+                <img src="./img/footer/footer-logo.png" alt="">
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">О компании</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#products" class="nav-link">Наша продукция</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#stages" class="nav-link">Как мы работаем</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacts" class="nav-link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer__buttons-wrapper">
+                <button class="button--order button button--green button--height-medium">Заказать</button>
+                <a href="https://dzen.ru/" class="footer__dzen-link">
+                    <img src="img/dzen.svg" alt="" class="footer__dzen-img">
+                    <span class="footer__dzen-text">Мы в Дзен</span>
+                </a>
+            </div>
+        </div>
+        <div class="footer__medium">
+            <div class="footer__medium-phones">
+                <a href="tel:+74964162927" class="footer__medium-contacts">+7 (496) 416-29-27</a>
+                <a href="tel:+79857611546" class="footer__medium-contacts">+7 (985) 761-15-46</a>
+            </div>
+            <a href="mailto:lessad@mail.ru" class="footer__medium-contacts mail">lessad@mail.ru</a>
+            <div class="footer__medium-social">
+                <a href="https://web.telegram.org" class="footer__social" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M9.55182 14.5591L17.2271 7.21824C17.5639 6.9014 17.1535 6.74689 16.7063 7.03428L7.23372 13.3678L3.14205 12.0143C2.25843 11.7276 2.25209 11.0841 3.34044 10.6215L19.2847 4.10585C20.0129 3.75547 20.7158 4.29121 20.4379 5.47242L17.7224 19.033C17.5329 19.9967 16.9835 20.2272 16.2223 19.7821L12.0859 16.5433L10.0978 18.592C10.0916 18.5984 10.0853 18.6049 10.0791 18.6113C9.85676 18.8406 9.67278 19.0306 9.2702 19.0306L9.55182 14.5591Z"
+                              fill="white"/>
+                    </svg>
+                </a>
+                <a href="https://www.whatsapp.com/" class="footer__social" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                        <path d="M16.918 13.8465C17.0761 13.9216 17.183 13.9723 17.2287 14.0471C17.2853 14.14 17.2853 14.5862 17.0964 15.1069C16.9073 15.6275 16.001 16.1027 15.5651 16.1666C15.1743 16.2241 14.6797 16.248 14.1363 16.0783C13.8068 15.9757 13.3843 15.8385 12.8431 15.6088C10.7164 14.7066 9.27913 12.6814 9.00762 12.2989C8.98861 12.2721 8.97532 12.2534 8.9679 12.2436L8.96609 12.2412C8.84609 12.0839 8.04163 11.0295 8.04163 9.93814C8.04163 8.91156 8.5549 8.37347 8.79116 8.12579C8.80735 8.10882 8.82224 8.09322 8.83557 8.07891C9.0435 7.85578 9.28928 7.8 9.44049 7.8C9.59171 7.8 9.74311 7.80138 9.87527 7.8079C9.89157 7.8087 9.90854 7.8086 9.92608 7.8085C10.0583 7.80774 10.2231 7.80679 10.3857 8.19047C10.4482 8.33817 10.5398 8.55716 10.6364 8.78812C10.8315 9.25495 11.0471 9.77065 11.0851 9.84529C11.1418 9.95685 11.1796 10.087 11.104 10.2358C11.0926 10.2581 11.0821 10.2791 11.0721 10.2992C11.0153 10.4131 10.9736 10.4969 10.8772 10.6075C10.8392 10.651 10.8 10.6979 10.7609 10.7448C10.6828 10.8381 10.6048 10.9315 10.5369 10.998C10.4233 11.1091 10.3051 11.2297 10.4374 11.4528C10.5697 11.6759 11.025 12.4057 11.6994 12.9967C12.4243 13.632 13.0544 13.9005 13.3737 14.0366C13.4361 14.0631 13.4866 14.0847 13.5237 14.1029C13.7504 14.2145 13.8828 14.1958 14.0151 14.0471C14.1474 13.8984 14.5822 13.3963 14.7334 13.1732C14.8846 12.9502 15.0359 12.9874 15.2437 13.0617C15.4517 13.1361 16.567 13.6752 16.7939 13.7868C16.8382 13.8086 16.8796 13.8282 16.918 13.8465Z"
+                              fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M12.655 20.8453H12.6513C11.1318 20.8448 9.63883 20.4703 8.31278 19.7597L3.5 21L4.78798 16.3781C3.99349 15.0254 3.57544 13.4909 3.57612 11.9189C3.57811 7.00107 7.65084 3 12.655 3C15.0836 3.00103 17.3632 3.92992 19.0772 5.61588C20.7913 7.30177 21.7347 9.54271 21.7338 11.9259C21.7317 16.8427 17.6606 20.8433 12.655 20.8453ZM8.53559 18.1446L8.81113 18.3052C9.9697 18.9807 11.2978 19.3381 12.6518 19.3386H12.6549C16.8139 19.3386 20.199 16.0128 20.2007 11.925C20.2015 9.94412 19.4174 8.08154 17.9926 6.68023C16.568 5.27891 14.6733 4.50682 12.6578 4.50614C8.49555 4.50614 5.11044 7.83155 5.10877 11.919C5.1082 13.3199 5.50714 14.684 6.26249 15.8644L6.44191 16.1448L5.67961 18.8805L8.53559 18.1446Z"
+                              fill="white"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p class="footer__bottom-text">© 2023 ООО “Лес и Сад”</p>
+            <button class="footer__bottom-text btn--policy">Политика конфиденциальности</button>
+            <div class="footer__texterra">
+                <span class="footer__bottom-text">Разработано</span>
+                <a href="https://texterra.ru/" class="footer__bottom-link" target="_blank">
+                    <img src="img/footer/texterra.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="modal-overlay"></div>
+<div id="modal-order" class="modal-window">
+    <button class="modal-window__close-btn" data-modal="modal-order"></button>
+    <form class="form" data-form-order="3">
+        <p class="modal-window__title">Готовы заказать?</p>
+        <p class="modal-window__text">Заполните форму, и наши сотрудники свяжутся с вами в течение 15 минут.</p>
+        <div class="form__fields modal-form">
+            <div class="form__input-wrapper">
+                <input name="name" type="text" class="form__input" data-form-name>
+                <label class="form__input-placeholder">Ваше имя<span>*</span></label>
+            </div>
+            <div class="form__input-wrapper">
+                <input type="tel" class="form__input" data-form-number data-inputmask="+7 (999) 999-99-99">
+                <label class="form__input-placeholder">Телефон<span>*</span></label>
+            </div>
+            <div class="form__input-wrapper">
+                <input type="email" class="form__input" data-form-email>
+                <label class="form__input-placeholder">Электронная почта<span>*</span></label>
+            </div>
+            <div class="form__input-wrapper">
+                <input type="text" class="form__input" data-form-organization>
+                <label class="form__input-placeholder">Ваша организация</label>
+            </div>
+        </div>
+        <button type="submit" class="modal-window__submit button button--width-max button--green" data-form-order="3">
+            Отправить
+        </button>
+        <p class="modal-window__placeholder">Нажимая на кнопку «Отправить», вы подтверждаете свое согласие на <span
+                class="modal-window__btn--policy btn--policy">обработку пользовательских данных</span>
+        </p>
+    </form>
+    <div class="form__successful modal" data-form-order="3">
+        <img src="img/modal-window/check-icon.png" alt="иконка галочки" class="form__successful-img">
+        <p class="form__successful-title">Ваша заявка направлена!</p>
+        <p class="form__successful-text">В ближайшее время наш менеджер с вами свяжется и сориентирует по дальнейшим
+            действиям.</p>
+        <img src="img/modal-window/modal-window-img.png" alt="грибы"
+             class="modal-window__successful__background">
+    </div>
+</div>
+<div id="modal-policy" class="modal-window modal--policy">
+    <button class="modal-window__close-btn" data-modal="modal-policy"></button>
+    <p class="modal-window__title">Политика конфиденциальности</p>
+    <div class="modal-window__policy">
+        <p>1. Общие положения</p>
+        <p>Политика в отношении обработки персональных данных (далее — Политика) направлена на защиту прав и свобод
+            физических лиц, персональные данные которых обрабатывает ООО "Стар Смайл" (далее — Оператор).
+            Целью настоящей Политики является обеспечение защиты прав и свобод субъектов персональных данных при
+            обработке их персональных данных, а так же выполнение законодательства Российской Федерации о
+            персональных данных
+            Политика разработана в соответствии с Конституцией Российской Федерации, Трудовым кодексом Российской
+            Федерации, Гражданским кодексом Российской Федерации, Федеральным законом «Об информации, информационных
+            технологиях и о защите информации», Федеральным законом от 27 июля 2006 г. № 152-ФЗ «О персональных
+            данных» (далее — ФЗ «О персональных данных»), иными нормативными правовыми актами, действующими на
+            территории Российской Федерации.
+            Персональные данные являются конфиденциальной, строго охраняемой информацией и на них распространяются
+            все требования, установленные внутренними документами Оператора к защите конфиденциальной информации.
+            Политика содержит сведения, подлежащие раскрытию в соответствии с ч. 1 ст. 14 ФЗ «О персональных
+            данных», и является общедоступным документом.</p>
+        <p>2. Сведения об операторе</p>
+        <p>Политика в отношении обработки персональных данных (далее — Политика) направлена на защиту прав и свобод
+            физических лиц, персональные данные которых обрабатывает ООО "Стар Смайл" (далее — Оператор).
+            Целью настоящей Политики является обеспечение защиты прав и свобод субъектов персональных данных при
+            обработке их персональных данных, а так же выполнение законодательства Российской Федерации о
+            персональных данных
+            Политика разработана в соответствии с Конституцией Российской Федерации, Трудовым кодексом Российской
+            Федерации, Гражданским кодексом Российской Федерации, Федеральным законом «Об информации, информационных
+            технологиях и о защите информации», Федеральным законом от 27 июля 2006 г. № 152-ФЗ «О персональных
+            данных» (далее — ФЗ «О персональных данных»), иными нормативными правовыми актами, действующими на
+            территории Российской Федерации.
+            Персональные данные являются конфиденциальной, строго охраняемой информацией и на них распространяются
+            все требования, установленные внутренними документами Оператора к защите конфиденциальной информации.
+            Политика содержит сведения, подлежащие раскрытию в соответствии с ч. 1 ст. 14 ФЗ «О персональных
+            данных», и является общедоступным документом.</p>
+    </div>
+</div>
+<div class="modal-cookie">
+    <p class="modal-cookie__text">Мы используем cookie — они помогают нам понять, как вы взаимодействуете с нашим сайтом
+        и сделать его удобнее и лучше</p>
+    <button class="button button--green button--height-medium" data-btn-cookie>Согласен</button>
+</div>
+<script type="module" src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="https://api-maps.yandex.ru/v3/?apikey=2066f485-4d1f-4c0a-aec3-6fd717c35187&lang=ru_RU"></script>
+<script>
+    async function initMap() {
+        await ymaps3.ready;
+        const {
+            YMap,
+            YMapDefaultSchemeLayer,
+            YMapDefaultFeaturesLayer,
+            YMapMarker
+        } = ymaps3;
+
+        const COORDINATES = [39.03523657702285, 55.79307775996491];
+
+        const LOCATION = {center: COORDINATES, zoom: 15};
+
+        map = new YMap(document.getElementById('map'), {location: LOCATION});
+
+        map.addChild(scheme = new YMapDefaultSchemeLayer());
+        map.addChild(new YMapDefaultFeaturesLayer());
+
+        // Создание маркера
+        const el = document.createElement('img');
+        el.className = 'my-marker';
+        el.src = './img/mapmarker.png';
+
+        el.onclick = () => map.update({location: {...LOCATION, duration: 400}});
+
+
+        // Контейнер для элементов маркера
+        const imgContainer = document.createElement('div');
+        imgContainer.appendChild(el);
+        imgContainer.style = 'width: 50px; height: 59px';
+
+        map.addChild(new YMapMarker({coordinates: COORDINATES}));
+
+        map.addChild(new YMapMarker({coordinates: COORDINATES}, imgContainer));
+    }
+
+    initMap();
+</script>
+</html>
