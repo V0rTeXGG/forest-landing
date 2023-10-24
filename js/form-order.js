@@ -42,16 +42,6 @@ export function handlerFormOrder() {
         });
     });
 
-    // function clearErrors(formData) {
-    //     for (const key in formData) {
-    //         if (formData.hasOwnProperty(key)) {
-    //             formData[key].classList.remove('error');
-    //         }
-    //     }
-    // }
-
-
-
     function validFormInput(formData) {
         let reEmail = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         const isCheckName = formData.name.value.length >= 1
